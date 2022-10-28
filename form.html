@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/ressources/style.css" rel="stylesheet" type="text/css">
+    <link href="css/bootstrap.css" rel="stylesheet">
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <form id="form">
+            <h3>proceed to payment</h3>
+            <div id="message"></div>
+            
+            <label for="fname" class="fName">First name:</label>
+            <input type="text" id="fname" name="fname">
+            <label for="lname">Last name:</label>
+            <input type="text" id="lname" name="lname"><br>
+            <label for="adress">Adress</label>
+            <input type="text" id="adress" name="adress">
+            <label for="payment-method">Payment method</label>
+              <select id="payment-method" name="payment-method">
+                  <option value="debit-card" id="debit-card">Debit card</option>
+                  
+                  <option value="credit-card" id="credit-card">Credit card</option>
+                  <option value="pay-cash" id="pay-cash">pay cash at store(only for pick up)</option>
+              </select><br>
+            <label for="card-number">enter card number</label>
+            <input type="text" id="card-number" name="card-number" pattern="[0-9]{16}">
+            <label for="csc">card security number</label>
+            <input type="text" id="csc" name="csc"><br>
+            <label for="experiation-date">experiation date</label>
+            <input type="date" id="experation-date" name="experiration-date" ><br>
+            
+            <textarea id="comment" name="comment" rows="8" cols="20" placeholder="add your question here!"></textarea><br>
+            
+            <button value="entre" id="submit">Enter</button>
+    
+        </form>
+        <script src="jsFile.js"></script>
+</body>
+</html>
