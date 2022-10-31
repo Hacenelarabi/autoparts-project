@@ -60,3 +60,14 @@ function onmouseOut(x){
     var suspenssion = document.getElementById('suspenssion');
     x.style.color = 'white';
 }
+
+
+
+
+
+const search = document.getElementById('search');
+const button = document.getElementById('button');
+  
+if(search.value === 'shop'){
+    console.log('select items');
+}

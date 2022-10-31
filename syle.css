@@ -4,3 +4,17 @@
 .navbar-brand {
     right: 15%;
 }
+.container {
+    display: flex;
+    justify-content: end;
+}
+.table1, .table2, .table3, .table3 {
+    border: 1px solid;
+    margin-right: 10px;
+}
+.tshop th {
+    border: solid;
+}
+.tshop td {
+    border: solid
+}
